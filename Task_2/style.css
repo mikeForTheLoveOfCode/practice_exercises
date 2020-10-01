@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+img{
+    object-fit: cover;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 34px;
+}
+h1{
+    font-size: 56px;
+    margin-bottom: 20px;
+    /* color: #0F0F2B; */
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    /* width: 80%; */
+}
+
+.btn{
+    padding: 25px 40px;
+    background-color: #442eba;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 15vh; */
+    font-size: 16px;
+}
+
+.navbar ul{
+    display: flex;
+    padding: 5vh 3vw;
+    width: 40vw;
+    background-color: #241381;
+    justify-content: flex-end;
+    color: #B6A9FE;
+}
+
+.navbar img{
+    width: 48px;
+    height: 48px;
+    margin: auto 3vw;
+}
+
+.highlight{
+    color: #fff;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_img{
+    width: 40vw;
+    height: 90vh;
+}
+
+.hero_cta{
+    margin: 162px 115px 151px 156px;
+}
+
+.hero_cta > h1,
+.hero_cta > p{
+    color: #0F0F2B;
+}
+
+
+/* Subscribe */
+.subscribe{
+    background-color: #241381;
+    padding: 100px 156px 125px;
+    color: #fff;
+}
+
+.subscribe_hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe_text{
+    width: 30vw
+}
+.subscribe_text > h1{
+    line-height: 62px;
+}
+
+.form{
+    width: 60%;
+}
+.email_form{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+input{
+    padding: 25px 205px 25px 30px;
+    font-size: 18px;
+}
+
+span{
+    display: block;
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 20px
+}
